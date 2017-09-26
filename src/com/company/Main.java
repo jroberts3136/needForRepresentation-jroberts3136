@@ -10,11 +10,7 @@ public class Main {
         String userString = keyInput.nextLine();
         int stringLength = userString.length();
 
-        char[] lowerAlpha = "abcdefghijklmnopqrstuvwxyz".toCharArray();    //+97 to ascii code
-        char[] upperAlpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();    //+65 to ascii code
-        char[] nonAlpha1 = " !\"#$%&'()*+,-./0123456789:;<=>?@".toCharArray();    //+33 to ascii code
-        char[] nonAlpha2 = "[\\]^_`".toCharArray();    //+91 to ascii code
-        char[] nonAlpha3 = "{|}~".toCharArray();    //+123 to ascii code
+        char[] ascii = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ !\"#$%&'()*+,-./0123456789:;<=>?@[\\]^_`{|}~".toCharArray(); //int asciiCode = char
 
         int startType = (int)(Math.random() * 5);
         /*
