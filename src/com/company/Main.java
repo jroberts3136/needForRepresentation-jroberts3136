@@ -18,10 +18,10 @@ public class Main {
 
         int startType = (int)(Math.random() * 5);
         /*
-        0 - Binary          Integer.toBinaryString();
-        1 - Octal           Integer.toOctalString();
+        0 - Binary          Integer.toBinaryString(int);
+        1 - Octal           Integer.toOctalString(int);
         2 - Decimal         Base ascii code
-        3 - Hexadecimal     Integer.toHexString();
+        3 - Hexadecimal     Integer.toHexString(int);
         4 - ASCII           Character
         */
         int startPosition = (int)(((Math.random() * 100) / 100) * stringLength);
