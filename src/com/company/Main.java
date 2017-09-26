@@ -22,5 +22,8 @@ public class Main {
         */
         int startPosition = (int)(((Math.random() * 100) / 100) * stringLength);
 
+        for(int i;i<=stringLength;i++){
+
+        }
     }
 }
