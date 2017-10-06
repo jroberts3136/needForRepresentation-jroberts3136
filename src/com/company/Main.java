@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner keyInput = new Scanner(System.in);
-        System.out.println("Enter you string.");
+        System.out.println("Enter your string.");
         String userString = keyInput.nextLine();
         int stringLength = userString.length();
 
